@@ -1,0 +1,62 @@
+.navBarContainer {
+    z-index: 2;
+    background-color: rgb(153, 204, 0);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 153, 0);
+  }
+  .navBarContainer a {
+    text-decoration: none;
+    color: white;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 35px;
+    font-family: "Satisfy", cursive;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .home {
+    font-size: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-cart {
+    position: relative;
+    margin-right: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    cursor: pointer;
+  }
+  .icon-cart {
+    height: 40px;
+    width: 40px;
+  }
+  .counter {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,44 @@
+.listContainer {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 90px 25%;
+  }
+  .filterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 10px;
+    min-width: 800px;
+  }
+  .btn-filter {
+    color: rgb(255, 153, 0);
+    background-color: white;
+    border: 2px solid rgb(255, 153, 0);
+    min-width: 120px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 3px;
+    transition: 0.3s;
+  }
+  .btn-filter:hover {
+    color: white;
+    background-color: rgb(255, 153, 0);
+  }
+  .productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,40 @@
+.cardContainer {
+    position: relative;
+    width: 150px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(230, 255, 153);
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgb(153, 204, 0);
+  }
+  
+  .cardContainer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(153, 204, 0);
+  }
+  
+  .btn-buy {
+    color: rgb(255, 153, 0);
+    background-color: white;
+    border: 2px solid rgb(255, 153, 0);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 4px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: 0.3s;
+  }
+  .btn-buy:hover {
+    color: white;
+    background-color: rgb(255, 153, 0);
+  }
+  
