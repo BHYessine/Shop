@@ -6,7 +6,7 @@ import { categoryList } from "../../Redux/Actions/actions";
 import { Link } from "react-router-dom";
 function ProductList() {
   const [filter, setFilter] = useState("");
-  const products = useSelector((state) => state.Products);
+  const products = useSelector((state) => state.SearchList);
   const category = useSelector((state) => state.Category);
   const dispatch = useDispatch();
 
