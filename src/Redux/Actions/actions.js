@@ -4,7 +4,8 @@ import {
     INCREASE,
     DECREASE,
     REMOVE,
-    CLEAR
+    CLEAR,
+    SEARCH
   } from "../Constants/types";
   
   export const categoryList = (payload) => ({
@@ -34,6 +35,11 @@ import {
   
   export const clear = (payload) => ({
     type: CLEAR,
+    payload
+  });
+  
+  export const search = (payload) => ({
+    type: SEARCH,
     payload
   });
   
