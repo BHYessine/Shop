@@ -5,7 +5,8 @@ import {
   INCREASE,
   DECREASE,
   REMOVE,
-  CLEAR
+  CLEAR,
+  SEARCH
 } from "../Constants/types";
 const initialState = data;
 
@@ -78,7 +79,20 @@ export const reducers = (state = initialState, action) => {
         Total: 0,
         Counter: 0
       };
-
+      case SEARCH:
+        const keyword = action.payload
+        if (keyword == "") {
+          return {
+            ...state,
+            SearchList: state.Products            
+          };
+        } else {
+          return{
+            ...state,
+            SearchList: state.Products.filter((item) => item.title.toLowerCase().startsWith(keyword.toLowerCase()))
+          }
+        }
+        
     default:
       return state;
   }
