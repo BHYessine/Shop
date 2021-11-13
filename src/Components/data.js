@@ -328,5 +328,7 @@ export const data = {
   Category: [""],
   Cart: [],
   Total: 0,
-  Counter: 0
+  Counter: 0,
+  SearchList:[],
+  keyword:"",
 };
